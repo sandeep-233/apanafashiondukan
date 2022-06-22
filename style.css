@@ -316,9 +316,27 @@ footer .terms_conditons ul li a {
 }
 @media screen and (max-width:500px) {
     body header {
-        display: flex;
+        height: 17vh;
         flex-direction: column;
         padding: 0px 49px;
+        display: flex;
+        width: 105%;
+    }
+    header .name_logo {
+        margin: 0px 0px;
+    }
+    header .buttons {
+        width: 30%;
+        margin: 9px 0px;
+    }
+    header .buttons ul li {
+        margin: 0px 9px;
+    }
+    header .buttons ul li a {
+        padding: 0px 3px;
+    }
+    .container {
+        width: 105%;
     }
     .container .banner {
         height: 23vh;
